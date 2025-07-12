@@ -1,0 +1,19 @@
+{
+  "@@locale": "ar",
+  "appTitle": "جوتياب",
+  "loginScreen_title": "تسجيل الدخول",
+  "login_email_label": "البريد الإلكتروني",
+  "login_password_label": "كلمة المرور",
+  "login_button": "دخول",
+  "logout_button": "خروج",
+  "home_screen_title": "الإعلانات",
+  "search_placeholder": "بحث...",
+  "contact_seller_button": "التواصل مع البائع",
+  "submit_button": "إرسال",
+  "register_screen_title": "إنشاء حساب",
+  "register_button": "تسجيل",
+  "profile_screen_title": "صفحتي",
+  "cart_screen_title": "سلة المشتريات",
+  "checkout_screen_title": "الدفع",
+  "orderConfirmation_message": "تم تأكيد طلبك!"
+}

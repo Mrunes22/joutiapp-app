@@ -1,0 +1,19 @@
+{
+  "@@locale": "en",
+  "appTitle": "JoutiApp",
+  "loginScreen_title": "Login",
+  "login_email_label": "Email",
+  "login_password_label": "Password",
+  "login_button": "Sign In",
+  "logout_button": "Sign Out",
+  "home_screen_title": "Listings",
+  "search_placeholder": "Search...",
+  "contact_seller_button": "Contact Seller",
+  "submit_button": "Submit",
+  "register_screen_title": "Register",
+  "register_button": "Register",
+  "profile_screen_title": "My Profile",
+  "cart_screen_title": "My Cart",
+  "checkout_screen_title": "Checkout",
+  "orderConfirmation_message": "Your order has been placed!"
+}

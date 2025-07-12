@@ -1,0 +1,66 @@
+name: joutiapp_app
+description: JoutiApp – la marketplace éco-responsable
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management (vous pouvez remplacer par Provider ou Bloc)
+  flutter_riverpod: ^2.0.0
+
+  # HTTP + JSON
+  dio: ^5.0.0
+  retrofit: ^4.6.0
+  json_annotation: ^4.8.0
+
+  # Local storage (tokens, prefs)
+  shared_preferences: ^2.0.15
+  flutter_secure_storage: ^10.0.0-beta.4
+
+  # Internationalisation
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+  # Firebase (Crashlytics, Analytics)
+  firebase_core: ^3.15.1
+  firebase_crashlytics: ^4.3.9
+  firebase_analytics: ^11.5.2
+
+  # Mercure / real-time via SSE
+  eventsource: ^0.4.0
+
+  # Payment (Stripe + CMI)
+  stripe_payment: ^1.1.4
+  webview_flutter: ^4.0.7
+
+  # UI & Icons
+  flutter_svg: ^2.0.9
+  animations: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.0
+  retrofit_generator: ^9.6.0
+  json_serializable: ^6.6.1
+  flutter_lints: ^6.0.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/translations/
+
+  # Génération d’ARB pour l’internationalisation
+  generate: true
+
+flutter_intl:
+  enabled: true

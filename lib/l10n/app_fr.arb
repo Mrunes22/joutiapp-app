@@ -1,0 +1,19 @@
+{
+  "@@locale": "fr",
+  "appTitle": "JoutiApp",
+  "loginScreen_title": "Connexion",
+  "login_email_label": "Email",
+  "login_password_label": "Mot de passe",
+  "login_button": "Se connecter",
+  "logout_button": "Se déconnecter",
+  "home_screen_title": "Annonces",
+  "search_placeholder": "Rechercher...",
+  "contact_seller_button": "Contacter le vendeur",
+  "submit_button": "Envoyer",
+  "register_screen_title": "Inscription",
+  "register_button": "S’inscrire",
+  "profile_screen_title": "Mon profil",
+  "cart_screen_title": "Mon panier",
+  "checkout_screen_title": "Paiement",
+  "orderConfirmation_message": "Votre commande a été validée !"
+}
